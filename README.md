@@ -23,6 +23,9 @@ After installing composer dependencies, add your database credentials in `.env` 
 ```
 php artisan migrate
 ```
+```
+php artisan db:seed
+```
 
 Now, in the terminal run `artisan serve` command. It will run the application at `http://127.0.0.1:8000` URL, and that URL path used in the Vue.js app.
 
